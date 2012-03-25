@@ -1,0 +1,96 @@
+EESchema Schematic File Version 2  date Sun 25 Mar 2012 10:05:41 AM CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:atmel_rev110
+LIBS:my_parts
+LIBS:murata-resonators
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "25 mar 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MADW__TSOP38238 Q?
+U 1 1 4F6ED1CF
+P 4650 3900
+F 0 "Q?" H 4580 4390 50  0000 L CNN
+F 1 "MADW__TSOP38238" H 4330 3630 50  0000 L CNN
+	1    4650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CSTLA_T Q?
+U 1 1 4F6EC7D6
+P 2400 3200
+F 0 "Q?" H 2220 3330 50  0000 L BNN
+F 1 "CSTLA_T" H 2470 3330 50  0000 L BNN
+F 2 "murata-resonators-CSTLA_T" H 2400 3350 50  0001 C CNN
+	1    2400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4F6EC6DD
+P 1850 2650
+F 0 "R?" V 1930 2650 50  0000 C CNN
+F 1 "R" V 1850 2650 50  0000 C CNN
+	1    1850 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MADW__AVR_ISP JP?
+U 1 1 4F6EC6BB
+P 3700 3300
+F 0 "JP?" H 3650 3550 50  0000 L BNN
+F 1 "MADW__AVR_ISP" H 3450 3000 50  0000 L BNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATTINY85-P IC?
+U 1 1 4F6EC673
+P 2750 2050
+F 0 "IC?" H 2850 2100 60  0000 C CNN
+F 1 "ATTINY85-P" H 4750 1300 60  0000 C CNN
+F 2 "DIP8" H 2850 1300 60  0001 C CNN
+	1    2750 2050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
