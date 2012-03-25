@@ -1,0 +1,164 @@
+# EESchema Netlist Version 1.1 created  Sun 25 Mar 2012 02:18:29 PM CEST
+(
+ ( /4F6EFDAF $noname  MH4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4F6EFDAC $noname  MH3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4F6EFDA8 $noname  MH2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4F6EFDA4 $noname  MH1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4F6EEE81 $noname  C1 47µF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4F6EEBE3 $noname  R5 1k {Lib=R}
+  (    1 /RESET )
+  (    2 N-000008 )
+ )
+ ( /4F6EEBE0 $noname  R4 1k {Lib=R}
+  (    1 /SCK )
+  (    2 N-000003 )
+ )
+ ( /4F6EEBDB $noname  R3 1k {Lib=R}
+  (    1 /MISO )
+  (    2 N-000004 )
+ )
+ ( /4F6EEBD3 $noname  R2 1k {Lib=R}
+  (    1 /MOSI )
+  (    2 N-000005 )
+ )
+ ( /4F6EEB50 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /MOSI )
+  (    4 /MISO )
+  (    5 /SCK )
+ )
+ ( /4F6ED250 $noname  U1 TSOP38238 {Lib=MADW__TSOP38238}
+  (    1 /MISO )
+  (    2 GND )
+  (    3 VCC )
+ )
+ ( /4F6EC7D6 murata-resonators-CSTLA_T  Q1 8MHz {Lib=CSTLA_T}
+  (    1 /XTAL1 )
+  (    2 GND )
+  (    3 /XTAL2 )
+ )
+ ( /4F6EC6DD $noname  R1 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000008 )
+ )
+ ( /4F6EC6BB $noname  JP1 ISP {Lib=MADW__AVR_ISP}
+  (    1 /MISO )
+  (    2 VCC )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RESET )
+  (    6 GND )
+ )
+ ( /4F6EC673 DIP8  IC1 ATTINY85-P {Lib=ATTINY85-P}
+  (    1 N-000008 )
+  (    2 /XTAL1 )
+  (    3 /XTAL2 )
+  (    4 GND )
+  (    5 N-000005 )
+  (    6 N-000004 )
+  (    7 N-000003 )
+  (    8 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ P1 2
+ U1 2
+ IC1 4
+ Q1 2
+ JP1 6
+ C1 2
+Net 2 "/SCK" "SCK"
+ P1 5
+ R4 1
+ JP1 3
+Net 3 "" ""
+ R4 2
+ IC1 7
+Net 4 "" ""
+ IC1 6
+ R3 2
+Net 5 "" ""
+ R2 2
+ IC1 5
+Net 6 "/XTAL2" "XTAL2"
+ Q1 3
+ IC1 3
+Net 7 "/XTAL1" "XTAL1"
+ Q1 1
+ IC1 2
+Net 8 "" ""
+ R1 2
+ IC1 1
+ R5 2
+Net 9 "/RESET" "RESET"
+ R5 1
+ JP1 5
+Net 10 "/MOSI" "MOSI"
+ P1 3
+ R2 1
+ JP1 4
+Net 11 "VCC" "VCC"
+ C1 1
+ JP1 2
+ U1 3
+ IC1 8
+ R1 1
+ P1 1
+Net 15 "/MISO" "MISO"
+ P1 4
+ R3 1
+ U1 1
+ JP1 1
+}
+#End

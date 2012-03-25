@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 25 Mar 2012 01:13:47 PM CEST
+
+BeginCmp
+TimeStamp = /4F6EEE81;
+Reference = C1;
+ValeurCmp = 47µF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EC673;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EC6BB;
+Reference = JP1;
+ValeurCmp = ISP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EFDA4;
+Reference = MH1;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EFDA8;
+Reference = MH2;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EFDAC;
+Reference = MH3;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EFDAF;
+Reference = MH4;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEB50;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EC7D6;
+Reference = Q1;
+ValeurCmp = 8MHz;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EC6DD;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEBD3;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEBDB;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEBE0;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEBE3;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6ED250;
+Reference = U1;
+ValeurCmp = TSOP38238;
+IdModule  = SIL-3;
+EndCmp
+
+EndListe
