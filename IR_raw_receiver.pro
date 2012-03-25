@@ -1,4 +1,4 @@
-update=Sun 25 Mar 2012 02:15:55 PM CEST
+update=Sun 25 Mar 2012 03:38:37 PM CEST
 version=1
 last_client=pcbnew
 [eeschema]
@@ -75,19 +75,19 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=1200
+PadDimH=1600
+PadDimV=1600
 BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
+TxtPcbV=400
+TxtPcbH=400
 TxtModV=600
 TxtModH=600
 TxtModW=120
 VEgarde=60
 DrawLar=150
 EdgeLar=150
-TxtLar=120
+TxtLar=80
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
