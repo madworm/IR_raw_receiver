@@ -1,109 +1,114 @@
-# EESchema Netlist Version 1.1 created  Sat 31 Mar 2012 03:59:22 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 31 Mar 2012 09:50:51 PM CEST
 (
- ( /4F76EBA8 C1 C1 100nF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4F76F8F5 $noname  U2 L78L05 {Lib=MADW__L78L05_TO-92}
+  (    1 VCC )
+  (    2 GND )
+  (    3 /Vin )
  )
- ( /4F76EB9D C1 C2 100nF
-  ( 1 /Vin )
-  ( 2 GND )
+ ( /4F76EE7D $noname  JP2 Vin! {Lib=JUMPER}
+  (    1 /Vin )
+  (    2 VCC )
  )
- ( /4F76EC0A C1 C3 100nF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4F76ED59 $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 /MISO )
+  (    3 /Vin )
+  (    4 /MOSI )
+  (    5 /SCK )
+  (    6 ? )
  )
- ( /4F6EEE81 C1 C4 47µF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4F76EC0A $noname  C3 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4F6F3628 LED-3MM D1 LED
-  ( 1 /LED )
-  ( 2 GND )
+ ( /4F76EBA8 $noname  C1 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4F6EC673 DIP-8__300_ELL IC1 ATtiny85
-  ( 1 N-000012 )
-  ( 2 /XTAL1 )
-  ( 3 /XTAL2 )
-  ( 4 GND )
-  ( 5 N-000014 )
-  ( 6 N-000015 )
-  ( 7 N-000016 )
-  ( 8 VCC )
+ ( /4F76EB9D $noname  C2 100nF {Lib=C}
+  (    1 /Vin )
+  (    2 GND )
  )
- ( /4F6EC6BB pin_array_3x2 JP1 ISP
-  ( 1 /MISO )
-  ( 2 VCC )
-  ( 3 /SCK )
-  ( 4 /MOSI )
-  ( 5 /RESET )
-  ( 6 GND )
+ ( /4F6F3628 $noname  D1 LED {Lib=LED}
+  (    1 /LED )
+  (    2 GND )
  )
- ( /4F76EE7D SIL-2 JP2 byp-7805
-  ( 1 /Vin )
-  ( 2 VCC )
+ ( /4F6F35F5 $noname  R6 1k {Lib=R}
+  (    1 /LED )
+  (    2 N-000014 )
  )
- ( /4F6EFDA4 MADW__mounting_hole_3mm MH1 CONN_1
-  ( 1 ? )
+ ( /4F6EFDAF $noname  MH4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4F6EFDA8 MADW__mounting_hole_3mm MH2 CONN_1
-  ( 1 ? )
+ ( /4F6EFDAC $noname  MH3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4F6EFDAC MADW__mounting_hole_3mm MH3 CONN_1
-  ( 1 ? )
+ ( /4F6EFDA8 $noname  MH2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4F6EFDAF MADW__mounting_hole_3mm MH4 CONN_1
-  ( 1 ? )
+ ( /4F6EFDA4 $noname  MH1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4F76ED59 SIL-6 P1 CONN_6
-  ( 1 GND )
-  ( 2 /MISO )
-  ( 3 /Vin )
-  ( 4 /MOSI )
-  ( 5 /SCK )
-  ( 6 ? )
+ ( /4F6EEE81 $noname  C4 47µF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4F6EC7D6 SIL-3 Q1 8MHz
-  ( 1 /XTAL1 )
-  ( 2 GND )
-  ( 3 /XTAL2 )
+ ( /4F6EEBE3 $noname  R5 510R {Lib=R}
+  (    1 /RESET )
+  (    2 N-000012 )
  )
- ( /4F6EC6DD R4 R1 10k
-  ( 1 VCC )
-  ( 2 N-000012 )
+ ( /4F6EEBE0 $noname  R4 510R {Lib=R}
+  (    1 /SCK )
+  (    2 N-000016 )
  )
- ( /4F6EEBD3 R4 R2 510R
-  ( 1 /MOSI )
-  ( 2 N-000014 )
+ ( /4F6EEBDB $noname  R3 510R {Lib=R}
+  (    1 /MISO )
+  (    2 N-000015 )
  )
- ( /4F6EEBDB R4 R3 510R
-  ( 1 /MISO )
-  ( 2 N-000015 )
+ ( /4F6EEBD3 $noname  R2 510R {Lib=R}
+  (    1 /MOSI )
+  (    2 N-000014 )
  )
- ( /4F6EEBE0 R4 R4 510R
-  ( 1 /SCK )
-  ( 2 N-000016 )
+ ( /4F6ED250 $noname  U1 TSOP38238 {Lib=MADW__TSOP38238}
+  (    1 /MISO )
+  (    2 GND )
+  (    3 VCC )
  )
- ( /4F6EEBE3 R4 R5 510R
-  ( 1 /RESET )
-  ( 2 N-000012 )
+ ( /4F6EC7D6 murata-resonators-CSTLA_T  Q1 8MHz {Lib=CSTLA_T}
+  (    1 /XTAL1 )
+  (    2 GND )
+  (    3 /XTAL2 )
  )
- ( /4F6F35F5 R4 R6 1k
-  ( 1 /LED )
-  ( 2 N-000014 )
+ ( /4F6EC6DD $noname  R1 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000012 )
  )
- ( /4F6ED250 SIL-3 U1 TSOP38238
-  ( 1 /MISO )
-  ( 2 GND )
-  ( 3 VCC )
+ ( /4F6EC6BB $noname  JP1 ISP {Lib=MADW__AVR_ISP}
+  (    1 /MISO )
+  (    2 VCC )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RESET )
+  (    6 GND )
  )
- ( /4F76F8F5 MADW__TO-92 U2 L78L05
-  ( 1 VCC )
-  ( 2 GND )
-  ( 3 /Vin )
+ ( /4F6EC673 DIP8  IC1 ATtiny85 {Lib=ATTINY85-P}
+  (    1 N-000012 )
+  (    2 /XTAL1 )
+  (    3 /XTAL2 )
+  (    4 GND )
+  (    5 N-000014 )
+  (    6 N-000015 )
+  (    7 N-000016 )
+  (    8 VCC )
  )
 )
 *
 { Allowed footprints by component:
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
 $component C1
  SM*
  C?
@@ -114,15 +119,6 @@ $component C2
  C?
  C1-1
 $endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- CP*
- SM*
-$endlist
 $component D1
  LED-3MM
  LED-5MM
@@ -132,19 +128,17 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component R1
+$component R6
  R?
  SM0603
  SM0805
  R?-*
 $endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
+$component C4
+ CP*
+ SM*
 $endlist
-$component R3
+$component R5
  R?
  SM0603
  SM0805
@@ -156,13 +150,19 @@ $component R4
  SM0805
  R?-*
 $endlist
-$component R5
+$component R3
  R?
  SM0603
  SM0805
  R?-*
 $endlist
-$component R6
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
  R?
  SM0603
  SM0805
@@ -170,3 +170,72 @@ $component R6
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ JP1 6
+ U1 2
+ D1 2
+ P1 1
+ U2 2
+ C4 2
+ Q1 2
+ IC1 4
+ C3 2
+ C2 2
+ C1 2
+Net 2 "/SCK" "SCK"
+ JP1 3
+ P1 5
+ R4 1
+Net 3 "/MISO" "MISO"
+ P1 2
+ U1 1
+ JP1 1
+ R3 1
+Net 4 "/MOSI" "MOSI"
+ P1 4
+ JP1 4
+ R2 1
+Net 6 "/LED" "LED"
+ R6 1
+ D1 1
+Net 10 "/RESET" "RESET"
+ JP1 5
+ R5 1
+Net 11 "VCC" "VCC"
+ C3 1
+ IC1 8
+ R1 1
+ JP2 2
+ C1 1
+ JP1 2
+ C4 1
+ U2 1
+ U1 3
+Net 12 "" ""
+ R5 2
+ IC1 1
+ R1 2
+Net 13 "/XTAL2" "XTAL2"
+ IC1 3
+ Q1 3
+Net 14 "" ""
+ IC1 5
+ R2 2
+ R6 2
+Net 15 "" ""
+ IC1 6
+ R3 2
+Net 16 "" ""
+ IC1 7
+ R4 2
+Net 17 "/XTAL1" "XTAL1"
+ IC1 2
+ Q1 1
+Net 19 "/Vin" "Vin"
+ U2 3
+ P1 3
+ C2 1
+ JP2 1
+}
+#End

@@ -1,6 +1,6 @@
-update=Sat 31 Mar 2012 04:16:26 PM CEST
+update=Sat 31 Mar 2012 10:18:13 PM CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -66,8 +66,6 @@ LibName30=valves
 LibName31=atmel_rev110
 LibName32=/home/robert/Arduino/KiCAD/LIBS/my_parts
 LibName33=murata-resonators
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -75,21 +73,21 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=236
-PadDimH=472
-PadDimV=591
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 TxtPcbV=400
 TxtPcbH=400
 TxtModV=400
 TxtModH=400
 TxtModW=80
-VEgarde=60
+VEgarde=0
 DrawLar=150
 EdgeLar=150
 TxtLar=80
 MSegLar=150
-LastNetListRead=IR_raw_receiver.net
+LastNetListRead=
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -99,8 +97,9 @@ LibName4=pin_array
 LibName5=divers
 LibName6=libcms
 LibName7=display
-LibName8=dip_sockets
-LibName9=valves
-LibName10=/home/robert/Arduino/KiCAD/LIBS/my_parts
-LibName11=led
-LibName12=ref-packages
+LibName8=led
+LibName9=dip_sockets
+LibName10=pga_sockets
+LibName11=valves
+[general]
+version=1

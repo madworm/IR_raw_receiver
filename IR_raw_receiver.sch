@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Mar 2012 04:20:52 PM CEST
+EESchema Schematic File Version 2  date Sat 31 Mar 2012 09:51:07 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -201,7 +201,7 @@ L JUMPER JP2
 U 1 1 4F76EE7D
 P 3300 3700
 F 0 "JP2" H 3300 3850 60  0000 C CNN
-F 1 "byp-7805" H 3300 3620 40  0000 C CNN
+F 1 "Vin!" H 3300 3620 40  0000 C CNN
 	1    3300 3700
 	1    0    0    -1  
 $EndComp
