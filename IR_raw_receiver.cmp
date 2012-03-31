@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 31 Mar 2012 03:59:22 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 31 Mar 2012 08:08:01 PM CEST
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -52,7 +52,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F76EE7D;
 Reference = JP2;
-ValeurCmp = byp-7805;
+ValeurCmp = Vin!;
 IdModule  = SIL-2;
 EndCmp
 
@@ -102,42 +102,42 @@ BeginCmp
 TimeStamp = /4F6EC6DD;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F6EEBD3;
 Reference = R2;
 ValeurCmp = 510R;
-IdModule  = R4;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F6EEBDB;
 Reference = R3;
 ValeurCmp = 510R;
-IdModule  = R4;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F6EEBE0;
 Reference = R4;
 ValeurCmp = 510R;
-IdModule  = R4;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F6EEBE3;
 Reference = R5;
 ValeurCmp = 510R;
-IdModule  = R4;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F6F35F5;
 Reference = R6;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = R1;
 EndCmp
 
 BeginCmp

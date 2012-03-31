@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 31 Mar 2012 03:59:22 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 31 Mar 2012 08:08:01 PM CEST
 (
  ( /4F76EBA8 C1 C1 100nF
   ( 1 VCC )
@@ -38,7 +38,7 @@
   ( 5 /RESET )
   ( 6 GND )
  )
- ( /4F76EE7D SIL-2 JP2 byp-7805
+ ( /4F76EE7D SIL-2 JP2 Vin!
   ( 1 /Vin )
   ( 2 VCC )
  )
@@ -67,27 +67,27 @@
   ( 2 GND )
   ( 3 /XTAL2 )
  )
- ( /4F6EC6DD R4 R1 10k
+ ( /4F6EC6DD R1 R1 10k
   ( 1 VCC )
   ( 2 N-000012 )
  )
- ( /4F6EEBD3 R4 R2 510R
+ ( /4F6EEBD3 R1 R2 510R
   ( 1 /MOSI )
   ( 2 N-000014 )
  )
- ( /4F6EEBDB R4 R3 510R
+ ( /4F6EEBDB R1 R3 510R
   ( 1 /MISO )
   ( 2 N-000015 )
  )
- ( /4F6EEBE0 R4 R4 510R
+ ( /4F6EEBE0 R1 R4 510R
   ( 1 /SCK )
   ( 2 N-000016 )
  )
- ( /4F6EEBE3 R4 R5 510R
+ ( /4F6EEBE3 R1 R5 510R
   ( 1 /RESET )
   ( 2 N-000012 )
  )
- ( /4F6F35F5 R4 R6 1k
+ ( /4F6F35F5 R1 R6 1k
   ( 1 /LED )
   ( 2 N-000014 )
  )
