@@ -1,6 +1,6 @@
-update=Sun 25 Mar 2012 06:41:06 PM CEST
+update=Sat 31 Mar 2012 04:16:26 PM CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -68,24 +68,30 @@ LibName32=/home/robert/Arduino/KiCAD/LIBS/my_parts
 LibName33=murata-resonators
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=1200
-PadDimH=1600
-PadDimV=1600
+PadDrlX=236
+PadDimH=472
+PadDimV=591
 BoardThickness=630
 TxtPcbV=400
 TxtPcbH=400
-TxtModV=600
-TxtModH=600
-TxtModW=120
+TxtModV=400
+TxtModH=400
+TxtModW=80
 VEgarde=60
 DrawLar=150
 EdgeLar=150
 TxtLar=80
 MSegLar=150
-LastNetListRead=
+LastNetListRead=IR_raw_receiver.net
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -97,9 +103,4 @@ LibName8=dip_sockets
 LibName9=valves
 LibName10=/home/robert/Arduino/KiCAD/LIBS/my_parts
 LibName11=led
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName12=ref-packages
