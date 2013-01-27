@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 31 Mar 2012 09:51:07 PM CEST
+EESchema Schematic File Version 2  date Sun 27 Jan 2013 10:27:36 AM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,17 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:atmel_rev110
 LIBS:my_parts
 LIBS:murata-resonators
 LIBS:IR_raw_receiver-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr User 8267 5905
 encoding utf-8
 Sheet 1 1
 Title "IR_raw_receiver"
-Date "31 mar 2012"
+Date "27 jan 2013"
 Rev "1.10"
 Comp "2012 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -550,12 +549,12 @@ F 1 "ISP" H 3250 2500 50  0000 L BNN
 $EndComp
 $Comp
 L ATTINY85-P IC1
-U 1 1 4F6EC673
-P 2600 1400
-F 0 "IC1" H 2700 1450 60  0000 C CNN
-F 1 "ATtiny85" H 4600 1450 60  0000 C CNN
-F 2 "DIP8" H 2700 650 60  0001 C CNN
-	1    2600 1400
+U 1 1 5104F2A5
+P 3750 1750
+F 0 "IC1" H 2700 2150 60  0000 C CNN
+F 1 "ATTINY85-P" H 4600 1350 60  0000 C CNN
+F 2 "DIP8" H 2700 1350 60  0001 C CNN
+	1    3750 1750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
